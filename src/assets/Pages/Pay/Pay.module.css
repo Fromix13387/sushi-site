@@ -1,0 +1,55 @@
+.form {
+  background-color: #f8f8f8;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+.form > div {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.form label {
+  min-width: 150px;
+  width: 10%;
+}
+.form input {
+  min-width: 250px;
+  padding: 5px 10px;
+}
+
+.Pay h3 {
+  padding: 10px;
+  background-color: #f8f8f8;
+  color: #e72828;
+  font-size: 20px;
+}
+.Pay button {
+  background-color: #8e44ad;
+  border: none;
+  width: fit-content;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Pay button:hover {
+  background-color: #ac53d2;
+}
+
+.ch {
+  height: 200px;
+  overflow: hidden !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.ch > p {
+  color: #777;
+}
+
+/*# sourceMappingURL=Pay.module.css.map */

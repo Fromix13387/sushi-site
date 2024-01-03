@@ -1,0 +1,14 @@
+.Payment > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Payment > div h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.Payment > div p {
+  color: #777;
+}
+
+/*# sourceMappingURL=Payment.module.css.map */

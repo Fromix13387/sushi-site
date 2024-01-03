@@ -1,0 +1,73 @@
+.Review .reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #777;
+}
+.Review .reviews > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-bottom: 10px;
+}
+.Review .reviews > div p {
+  font-size: 15px;
+}
+.Review .reviews > div h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.Review .reviews > div > div {
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.formReview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formReview > h2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.formReview form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formReview form > div {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 5px;
+}
+.formReview form > div > div {
+  display: flex;
+  gap: 5px;
+}
+.formReview form > div > input {
+  width: 15%;
+}
+.formReview form > div > p:nth-child(1) {
+  min-width: 110px;
+  width: 10%;
+}
+.formReview form .name > p {
+  width: 42%;
+}
+.formReview form .name > input {
+  width: 50%;
+}
+.formReview form button {
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: #8e44ad;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Review.module.css.map */

@@ -1,0 +1,232 @@
+/* Please do not use this import in production. You can download this font from here https://fontstorage.com/font/roboto?from=jb. */
+@import "https://fonts.fontstorage.com/import/roboto.css";
+/*
+	Roboto, 100, 100 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic, 900, 900 italic
+*/
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+  width: 100vw;
+  margin: 0;
+  font-family: Roboto, sans-serif !important;
+  font-size: 16px;
+  background-color: #edeef0;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Header .top {
+  width: 100%;
+  padding: 10px;
+  background-color: #8e44ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.Header .top a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  justify-content: start;
+}
+.Header p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.Header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: max-content;
+  border: white 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+  gap: 8px;
+  background-color: transparent;
+}
+.Header > img {
+  width: 100%;
+}
+.Header .header_action {
+  height: 10px;
+  width: 100%;
+  background-color: white;
+}
+.Header .header_order {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-top: 1px solid #edeef0;
+  border-bottom: 1px solid #edeef0;
+  background-color: white;
+}
+.Header .header_order div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  min-width: 200px;
+  width: 33%;
+  padding: 10px;
+}
+.Header .header_order div p:nth-child(1) {
+  color: #777;
+  font-size: 13px;
+}
+
+.Navigation {
+  display: flex;
+  padding: 0 15px;
+  min-height: 55px;
+  align-items: center;
+  border-bottom: 1px solid #edeef0;
+  justify-content: space-between;
+  background-color: #fafbfc;
+}
+.Navigation > div {
+  min-width: 450px;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+}
+.Navigation > div a {
+  display: flex;
+  align-items: center;
+  color: #777;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 55px;
+}
+.Navigation > div a:hover {
+  color: #3b3b3b;
+}
+.Navigation > a {
+  text-decoration: none;
+  margin: 5px;
+  background-color: #8e44ad;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Main > div {
+  background-color: white;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 15px;
+}
+.Main h1 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.Footer {
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+.Footer > div {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+.Footer > div a {
+  color: #71aaeb;
+}
+.Footer > div span {
+  color: #8e8e8e;
+}
+.Footer > div a, .Footer > div span {
+  font-size: 14px;
+}
+.Footer > p {
+  font-size: 15px;
+  color: #777;
+}
+
+.tel_nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px -1px 5px #cecccc;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.tel_nav > div, .tel_nav a {
+  background-color: #8e44ad;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tel_nav a {
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+.tel_nav a > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (width <= 750px) {
+  .Footer {
+    margin-bottom: 55px;
+  }
+  .Main > div {
+    background-color: white;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    gap: 15px;
+  }
+}
+
+/*# sourceMappingURL=Header.module.css.map */

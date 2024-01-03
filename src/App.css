@@ -1,0 +1,21 @@
+.App {
+    /*max-width: 1200px;*/
+    width: 1200px;
+
+    /*display: flex;*/
+}
+@media (width < 1250px) {
+    .App {
+        /*max-width: 1200px;*/
+        width:100%;
+        /*display: flex;*/
+    }
+}
+
+.x-scroll {
+    overflow-y: hidden!important;
+    overflow-x: scroll!important;
+}
+.x-scroll::-webkit-scrollbar {
+    display: none !important;
+}

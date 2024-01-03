@@ -1,0 +1,15 @@
+.Payment {
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h2 {
+      font-size: 22px;
+      font-weight: 500;
+    }
+    p {
+      color: #777;
+    }
+  }
+}

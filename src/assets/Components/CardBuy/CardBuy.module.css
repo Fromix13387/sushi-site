@@ -1,0 +1,33 @@
+.CardBuy {
+  width: 100%;
+}
+.CardBuy > td {
+  border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  padding: 10px;
+}
+.CardBuy > td:nth-child(1) {
+  width: 1px;
+}
+.CardBuy > td img {
+  border-radius: 5px;
+}
+.CardBuy > td > div {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CardBuy > td > div p {
+  color: #333;
+}
+.CardBuy > td > div > div > div {
+  background-color: #8e44ad;
+  border-radius: 5px;
+}
+.CardBuy > td > div > div > div:hover {
+  background-color: #b255da;
+  color: white;
+}
+
+/*# sourceMappingURL=CardBuy.module.css.map */

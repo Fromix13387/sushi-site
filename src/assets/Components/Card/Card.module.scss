@@ -1,0 +1,81 @@
+.Card {
+    padding: 10px;
+    background-color: rgba(251, 197, 255, 0.19);
+    transition: all 0.2s ease;
+  width: 100%;
+    img {
+      //min-width: 350px;
+      //max-width: 350px;
+      padding: 10px;
+      margin: -10px ;
+      border-radius: 20px;
+      width: 106%;
+      height: max-content;
+      max-height: 350px;
+      object-fit: cover;
+      transition: all 0.5s ease;
+      &:hover {
+
+        transform: scale(1.03);
+      }
+    }
+    &:hover {
+      background-color: rgba(208, 165, 211, 0.23);
+    }
+  >  a {
+    text-decoration: none;
+  }
+     h2 {
+      text-decoration: none;
+      margin-top: 10px;
+      font-size: 18px;
+      color: #8e44ad;
+    }
+    > p {
+      font-size: 14px;
+      color: gray;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  position: relative;
+    height: 500px;
+    border-radius: 15px;
+    //border: red solid 2px;
+
+  .price {
+    position: absolute;
+    bottom: 15px;
+    width: 95%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    p {
+      font-weight: bold;
+      font-size: 19px;
+    }
+    button {
+      cursor: pointer;
+      background-color: #8e44ad;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}
+.card_buy {
+  &:hover {
+    background-color:  #8e44ad;
+  }
+  h2, p {
+    color: white;
+  }
+  background-color: #8e44ad;
+}
+
+
+

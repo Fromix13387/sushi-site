@@ -1,0 +1,16 @@
+.About hr {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: none;
+  height: 1px;
+}
+.About > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.About span {
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=About.module.css.map */

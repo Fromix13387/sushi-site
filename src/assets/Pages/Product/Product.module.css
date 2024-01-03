@@ -1,0 +1,73 @@
+.Product {
+  display: flex;
+  gap: 10px;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+.Product .img {
+  width: fit-content;
+  position: relative;
+}
+.Product .img a > img {
+  width: 10px;
+}
+.Product .img > img {
+  width: 65%;
+}
+.Product h2 {
+  color: #333;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Product a {
+  padding: 3px 7px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #9a50ba;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.Product .desc {
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Product .desc > P {
+  color: #777;
+}
+.Product .item_buy {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.Product .item_buy > button {
+  cursor: pointer;
+}
+.Product .item_buy > div {
+  gap: 5px;
+}
+.Product .item_buy > div > div {
+  background-color: #9a50ba;
+  border-radius: 5px;
+}
+.Product .item_buy > p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.Product .item_buy button {
+  background-color: #9a50ba;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (width <= 800px) {
+  .img > img {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=Product.module.css.map */

@@ -1,0 +1,26 @@
+.item_buy {
+  user-select: none;
+  display: flex;
+
+  border-radius: 5px;
+  > * {
+    padding: 5px;
+  }
+  > div {
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    border:1px solid white;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.07);
+    }
+  }
+  > p {
+    background-color: white;
+    color: #333;
+  }
+}

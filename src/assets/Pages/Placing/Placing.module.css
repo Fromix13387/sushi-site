@@ -1,0 +1,79 @@
+.Placing > div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #f8f8f8;
+}
+.Placing textarea {
+  padding: 10px;
+  resize: none;
+}
+.Placing textarea:focus {
+  outline: none;
+  border: 1px solid #8e44ad;
+}
+.Placing span {
+  color: red;
+}
+.Placing label {
+  color: #777;
+  font-size: 14px;
+}
+.Placing input {
+  height: 45px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.Placing input:focus {
+  border-color: #8e44ad;
+}
+.Placing .address > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.Placing .address > div > div {
+  display: flex;
+  flex-direction: column;
+}
+.Placing .address > div > div label {
+  margin-left: 5px;
+}
+
+.result > div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #777;
+}
+
+.btn {
+  display: flex;
+  width: 100%;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+.btn > a {
+  width: fit-content;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #8e44ad;
+  color: #8e44ad;
+  transition: all 0.2s ease;
+}
+.btn > a:nth-child(2) {
+  background-color: #8e44ad;
+  color: white;
+}
+.btn > a:nth-child(2):hover {
+  background-color: #af56d5;
+}
+.btn > a:hover {
+  color: white;
+  background-color: #8e44ad;
+}
+
+/*# sourceMappingURL=Placing.module.css.map */
