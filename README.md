@@ -1,2 +1,2 @@
 # sushi-site
-Food Purchasing Website
+Website for purchasing prepared food
