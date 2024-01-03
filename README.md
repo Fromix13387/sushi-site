@@ -1,5 +1,5 @@
 # sushi-site
-Website for purchasing prepared food
+Client part of the Sushi website
 
 ## Getting started
 
