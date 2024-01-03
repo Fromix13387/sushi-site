@@ -10,5 +10,5 @@ Website for purchasing prepared food
 
 ### Running locally and Assembling
 
-1. `npm run dev` to start the development server (powered by [Next.js](https://nextjs.org/))
+1. `npm run dev` to start the development server
 2. `npm run build` assembling the project
